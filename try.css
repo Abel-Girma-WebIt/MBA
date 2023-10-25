@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+   
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 80%;
+    position: relative;
+    left: 15%;
+    background-color: green;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    
+}
+h1{
+
+    color: black;
+    margin-top: 5%;
+    text-shadow: 10px 1px 10px 10px black
+}
+
+h2{
+
+    color: black;
+    margin-top: 35px;
+    
+}
+
+section{
+    
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+ul{
+    list-style: none;
+    display: flex;
+    padding: 20px;
+     
+}
+
+li{
+
+margin: 20px;
+font-size: x-large;
+
+background-color:green;
+color: white;
+border-radius: 5px;
+padding: 3px;
+
+
+
+
+
+}
+
+li:hover{
+
+color: black;
+cursor: pointer;
+background-color: yellow;
+
+
+
+}
+
+
+#imag-container{
+
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+
+img{
+ width: 300px;
+ height: 300px;
+ margin: 15px;
+ box-shadow: 10px 10px 10px;
+ border-radius: 10px;
+ 
+
+}
+
+img:hover{
+    transition: 0.2s;
+    transform: rotate(5deg);
+    filter:grayscale(100%);
+    filter:hue-rotate(50deg)
+}
+
+
+.imageDivs{
+
+    display: grid;
+    
+}
+
+label{
+
+color: white;
+
+
+
+}
+
+a{
+    
+    background-color: white;
+    height: 60px;
+    display: block;
+    text-align: center;
+    margin: 10px;
+    width: 30%;
+    height: fit-content;
+    padding: 5px;
+    text-decoration: none;
+    font-size: larger;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px black;
+
+   
+}
+
+a:hover{
+
+color: white;
+background-color: darkblue;
+
+
+
+}
+
+.item-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+#footer{
+    margin-top: 50px;
+    width: 85%;
+    height: 400px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  
+}
+
+#top{
+    width: 85%;
+    background-color: yellow;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius:15px ;
+    box-shadow: 10px 10px 10px;
+   
+    
+}
+
+
+
+@media only screen and (max-width: 767px) {
+    body{
+
+        background-color: red;
+        font-size: small;
+    }
+    
+}
+
+#contact-us{
+
+margin-top: 20px;
+width: 90%;
+background-color:green;
+padding-bottom: 200px;
+border-radius: 25px;
+
+}
+
+form{
+
+    color: black;
+    width: 90%;
+    margin-top: 200px;
+
+}
+
+.contact-deatil{
+
+    width: 50%;
+    padding: 10px;
+    margin-top: 30px;
+    background-color: yellow;
+    border-radius: 25px;
+}
+
+#contact-submit{
+
+    padding: 10px;
+    width: 200px;
+}
+/* label{
+    color: black;
+    font-size: x-large;
+} */
+
+#message{
+
+    width: 55%;
+    color: black;
+    height: 200px;
+    border-radius: 20px;
+}
+
+#testimony{
+
+color: azure;
+margin-top: 120px;
+display: flex;
+width: 90%;
+
+}
+
+.testi{
+    border-radius: 50%;
+}
+
+#customers{
+
+    color: white;
+    margin-top: 120px;
+}
+
+#commentSubmit{
+
+    color: white;
+    background-color: black;
+    padding: 5px;
+    width: 150px;
+}
